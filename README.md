@@ -20,32 +20,32 @@ Algorithms
 Quick start
 -----------
 
-cd src && make
-cd ../eg && make
+    cd src && make
+    cd ../eg && make
 
-The commands above build and populate the eg directory with the
-resulting images obtained from dithering the file kodim23.png.
+The commands above build and populate the `eg` directory with the
+resulting images obtained from dithering the file `kodim23.png`.
 
 The resulting images are in NetPBM's P1/P2/P3 file formats.
 
 Building
 --------
 
-Run make inside the src directory.
-The source code is in ANSI C but requires libpng.
+Run `make` inside the `src` directory.
+The source code is in ANSI C but requires `libpng`.
 
 Using
 -----
 
-Once built run the cli executable found inside the src directory.
-You may run cli without parameters to get help.
+Once built run the `cli` executable found inside the `src` directory.
+You may run `cli` without parameters to get help.
 
 License
 -------
 
-Public domain (see the UNLICENSE file.)
+Public domain (see the `UNLICENSE` file.)
 
 Credits
 -------
 
-The test image kodim23.png is copied from http://r0k.us/graphics/kodak/.
+The test image `kodim23.png` is copied from http://r0k.us/graphics/kodak/.
